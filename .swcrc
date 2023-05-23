@@ -1,0 +1,30 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "dynamicImport": true
+    },
+    "target": "esnext",
+    "transform": {
+      "react": {
+          "runtime": "automatic"
+      }
+    },
+    "loose": false,
+    "minify": {
+      "compress": false,
+      "mangle": false
+    },
+    "externalHelpers": true,
+    "keepClassNames": false,
+    "experimental": {
+      "cacheRoot": "node_modules/.cache/.swc"
+    }
+  },
+  "module": {
+    "type": "es6"
+  },
+  "minify": true,
+  "isModule": true
+}
